@@ -75,8 +75,8 @@
                     echo "</div>";
                 echo"<div class='contenedorRespuestas'>";
         
-                    echo "<a class='boton' href='http://localhost:3000/crear.php?nodo=" .$nodo ."&respuesta=1&nombre=".$texto."'>Si</a>";
-                    echo "<a class='boton' href='http://localhost:3000/crear.php?nodo=" .$nodo ."&respuesta=0&nombre=".$texto."'>No</a>";
+                    echo "<a class='boton' href='http://localhost:3000/index.php?nodo=" .$nodo ."&respuesta=0&nombre=".$texto."'>Si</a>";
+                    echo "<a class='boton' href='http://localhost:3000/index.php?nodo=" .$nodo ."&respuesta=0&nombre=".$texto."'>No</a>";
                     
         
                 echo"</div>";
